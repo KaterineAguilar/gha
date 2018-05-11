@@ -21,6 +21,18 @@ body{
 	position: absolute;
 }
 
+.contenido{
+	display: block;
+	margin: 2px auto;
+	padding: 2px;
+	border: 1px solid #FF0000;
+}
+
+.contenido > img {
+	display: block;
+	margin: auto;
+}
+
 .pie{
 	height: 5%;
 	background: #000071;
