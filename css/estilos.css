@@ -21,6 +21,14 @@ body{
 	position: absolute;
 }
 
+.menu {
+	display: block;
+	background: #8A0829;
+	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
+	width: 100%;
+	height: 50px;
+}
+
 .contenido{
 	display: block;
 	margin: 2px auto;
