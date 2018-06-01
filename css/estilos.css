@@ -7,6 +7,12 @@ body {
 	width: 90%;
 	margin: auto;
 }
+
+.baner>img{
+	width: 100%;
+	display: block;
+	height: 170px;
+}
 header .menu {
 	background: #8A0829;
 	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
