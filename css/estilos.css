@@ -4,7 +4,8 @@
 }
 body {
 	background: #e6e6e6;
-
+	width: 90%;
+	margin: auto;
 }
 header .menu {
 	background: #8A0829;
@@ -13,7 +14,7 @@ header .menu {
 header .menu ul{
 	list-style: none;
 }
-header .menu ul li{
+.principal >li{
 	float:left;
 }
 header .menu ul li a{
@@ -24,6 +25,21 @@ header .menu ul li a{
 }
 header nav ul li a:hover{
 	background: #DF013A;	
+}
+
+.menu ul li ul {
+	display: none;/*esconde los sub menus*/
+	position: absolute;/*para que no se deforme con cada elemento*/
+	background: #8A0829;
+}
+
+/* cuando pasamos el mouse sobre los elementos li de hover*/
+.principal li:hover > ul{
+	display: block;
+}
+
+.menu ul li ul li a{
+	display: block;
 }
 footer{
 	background: #000;
