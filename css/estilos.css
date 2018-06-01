@@ -8,10 +8,18 @@ body {
 	margin: auto;
 }
 
+.baner{
+	display:block;
+	width: 100%;
+}
 .baner>img{
 	width: 100%;
 	display: block;
 	height: 170px;
+}
+
+.IMGban{
+	width: 100%;
 }
 header .menu {
 	background: #8A0829;
