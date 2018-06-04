@@ -1,34 +1,57 @@
 *{
 	margin: 0;
 	padding: 0;
+	
 }
 body {
 	background: #e6e6e6;
 	width: 90%;
+	height: 100%;
 	margin: auto;
 }
-
 .baner{
-	display:block;
+	display: inline-block;
 	width: 100%;
+	height: 25%;
+	background: #397AD2;
 }
-.baner>img{
-	width: 100%;
-	display: block;
-	height: 170px;
+.baner .IMGletras{
+	width: 55%;
+	height: 75%;
+	margin-top: 3%;
+
+}
+.baner .IMGlogo{
+	width: 14%;
+	float: right;
+	margin-right: 3%;
 }
 
-.IMGban{
-	width: 100%;
+footer{
+	background: #000;
+	height: 7%;
+	color: #fff;
+	clear: both; /*limpia los float left*/
+	padding: 10px 0px; /*(arriba-lados)*/
+	text-align: center;
 }
 header .menu {
-	background: #8A0829;
-	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
+	overflow: hidden;/* quito los float antes y despues para q no se distorcione*/
+	height: 7%;
+	background: #000;
+
 }
 header .menu ul{
 	list-style: none;
 }
-.principal >li{
+header nav{
+	background: #528FD5;
+	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
+}
+header nav ul{
+	list-style: none;
+}
+header nav>ul>li{
 	float:left;
 }
 header .menu ul li a{
@@ -38,13 +61,15 @@ header .menu ul li a{
 	text-decoration: none;/*quitarle el subrrayado*/	
 }
 header nav ul li a:hover{
-	background: #DF013A;	
+	background: #FE0707;	
 }
 
 .menu ul li ul {
 	display: none;/*esconde los sub menus*/
 	position: absolute;/*para que no se deforme con cada elemento*/
-	background: #8A0829;
+	background: #fff;
+	color: #000;
+	border: 1px solid #FE0707;
 }
 
 /* cuando pasamos el mouse sobre los elementos li de hover*/
@@ -54,11 +79,5 @@ header nav ul li a:hover{
 
 .menu ul li ul li a{
 	display: block;
-}
-footer{
-	background: #000;
-	color: #fff;
-	clear: both; /*limpia los float left*/
-	padding: 10px 0px; /*(arriba-lados)*/
-	text-align: center;
+	color: #000;
 }
