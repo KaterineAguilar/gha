@@ -76,22 +76,49 @@ header nav ul li a:hover{/*menu*/
 .principal li:hover > ul{
 	display: block;
 }
-
 .menu ul li ul li a{ /*a sub-menu*/
 	display: block;
 	color: #000;
 }
-section img{
-	width: 40%;
-	height: 35%;
-	float: left;
+
+.noticiasPri{
+	margin-top: 0.6%;
+	padding: 0.5% 0% ;
+	background: #fff;
+	width: 70%;
+	display: inline-block;
+	border: solid 1px #FE0707;
+	
+}
+.noticiasPri .tituloNot{
+	background: #FE0707;
+	display: block;
+	margin: auto; 
+	text-align: center;
+	color: #fff;
+	font-size: 1em;
+	border: solid 1px #000;
+	margin-bottom: 2px;
+}
+.noticiasPri div img{
+	width: 93%;
+	display: block;
+	margin: auto;
+	border: solid 1px #000;
+}
+.notas{
+	margin-top: 0.6%;
+	float: right;
+	width: 28%;
+	background: #fff;
+	border: solid 1px #FE0707;
 
 }
-aside {
+.notas .eventos{
+	margin: auto;
+}
+.eventos tr td img{
+	width: 200px;
+}
 
-}
-aside div img{
-	width: 30%;
-	float: 
-}
 
