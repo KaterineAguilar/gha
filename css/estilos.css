@@ -38,14 +38,14 @@ footer{
 header .menu {
 	overflow: hidden;/* quito los float antes y despues para q no se distorcione*/
 	height: 7%;
+	padding: 0% 3%;
 	background: #000;
 
 }
-header .menu ul{
+header .menu ul{/*elimino los puntos de las listas*/
 	list-style: none;
 }
-header nav{
-	background: #528FD5;
+header nav{/**/
 	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
 }
 header nav ul{
@@ -53,6 +53,7 @@ header nav ul{
 }
 header nav>ul>li{
 	float:left;
+	padding: 0% 3%;
 }
 header .menu ul li a{
 	padding: 10px 20px;
@@ -60,24 +61,37 @@ header .menu ul li a{
 	color: #fff;
 	text-decoration: none;/*quitarle el subrrayado*/	
 }
-header nav ul li a:hover{
-	background: #FE0707;	
+header nav ul li a:hover{/*menu*/
+	background: #FE0707;
 }
-
-.menu ul li ul {
+.menu ul li ul { /*sub menu*/
 	display: none;/*esconde los sub menus*/
 	position: absolute;/*para que no se deforme con cada elemento*/
-	background: #fff;
-	color: #000;
+	background: #fff;/*fondo blanco*/
+	color: #000;/*letras negras*/
 	border: 1px solid #FE0707;
 }
 
-/* cuando pasamos el mouse sobre los elementos li de hover*/
+/* cuando pasamos el mouse sobre los elementos del menu activo los sub-menu*/
 .principal li:hover > ul{
 	display: block;
 }
 
-.menu ul li ul li a{
+.menu ul li ul li a{ /*a sub-menu*/
 	display: block;
 	color: #000;
 }
+section img{
+	width: 40%;
+	height: 35%;
+	float: left;
+
+}
+aside {
+
+}
+aside div img{
+	width: 30%;
+	float: 
+}
+
