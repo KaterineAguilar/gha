@@ -138,6 +138,11 @@ header nav ul li a:hover{/*menu*/
 	display: block;
 }
 
+.notas tr td img:hover{
+	width: 300px;
+	transition-duration: .5s;
+}
+
 .notas .eventos tr th{
 	background: black;
 	color: #fff;
