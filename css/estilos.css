@@ -3,6 +3,14 @@
 	padding: 0;
 	
 }
+html{
+	
+		background: -webkit-linear-gradient(#e6e6e6, #000);
+  	background: -moz-linear-gradient(black, red);
+  	background: -o-linear-gradient(#e6e6e6, #000);
+
+}
+
 body {
 	background: #e6e6e6;
 	width: 90%;
@@ -13,7 +21,8 @@ body {
 	display: inline-block;
 	width: 100%;
 	height: 25%;
-	background: #397AD2;
+	/*background: #397AD2;*/
+	background: black;
 }
 .baner .IMGletras{
 	width: 55%;
@@ -25,6 +34,12 @@ body {
 	width: 14%;
 	float: right;
 	margin-right: 3%;
+}
+
+.baner>img{
+	margin-top: 1%;
+	width: 100%;
+	height: 150px;
 }
 
 footer{
