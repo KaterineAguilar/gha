@@ -2,6 +2,10 @@ html{
 	height:100%;
 	margin: 0;
 	position: relative;
+	background: linear-gradient(black, red);
+	background: -webkit-linear-gradient(black, red);
+  	background: -moz-linear-gradient(black, red);
+  	background: -o-linear-gradient(black, red);
 }
 body{
 	width: 90%;
@@ -17,13 +21,13 @@ body{
 
 .IMGban{
 	width: 90%;
-	height: 30%;
+	height: 25%;
 	position: absolute;
 }
 
 .menu {
 	display: block;
-	background: #8A0829;
+	background: #000;
 	overflow: hidden; /*quito los float antes y despues para q no se distorcione*/
 	width: 100%;
 	height: 50px;
@@ -31,6 +35,7 @@ body{
 
 .contenido{
 	display: block;
+	background: #fff;
 	margin: 2px auto;
 	padding: 2px;
 	border: 1px solid #FF0000;
